@@ -1,0 +1,79 @@
+.inquiry{
+  position:relative;
+}
+
+.inquiry_top img{
+    width:100%;
+    height:300px;
+  
+    z-index:100;
+}
+.i_text{
+    position:absolute;
+    z-index: 150;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size:250%;
+    color:white;
+}
+
+/*  */
+.inquiry_box{
+    padding-top:60px;
+}
+
+.inquiry{
+
+ line-height: 30px; 
+ font-size:20px;
+}
+.box_container{
+  justify-content: center;
+  margin:10px auto;
+ 
+  margin-left:10%;
+}
+
+input.hoge {
+    width: 80%;
+    height: 1.8em;
+    }
+
+input.hoge1{
+    width:80%;
+    height: 10em;
+    }
+
+    .btn{
+        font-size: 20px;
+        color:aliceblue;
+        background-color: crimson;
+        height:20px;
+        width:300px;
+        text-align: center;
+   
+        margin:0 auto;
+        padding:20px;
+        margin-top:15px;
+        margin-bottom:40px;
+        
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all  0.5s ease;
+      
+      }
+      
+      .btn:hover{
+        background-color:rgb(216, 89, 115);
+      }
+
+      a{
+        text-decoration:none;
+        color:white;
+    }
+    
+      
