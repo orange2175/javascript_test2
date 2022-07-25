@@ -1,14 +1,11 @@
-console.log("hello world");
-
-window.onload = function () {
-    var nav = document.getElementById('nav-wrapper');
-    var hamburger = document.getElementById('js-hamburger');
-    var blackBg = document.getElementById('js-black-bg');
-
-    hamburger.addEventListener('click', function () {
-        nav.classList.toggle('open');
+$(function() {
+    $('.hamburger').click(function() {
+        $(this).toggleClass('active');
+ 
+        if ($(this).hasClass('active')) {
+            $('.globalMenuSp').addClass('active');
+        } else {
+            $('.globalMenuSp').removeClass('active');
+        }
     });
-    blackBg.addEventListener('click', function () {
-        nav.classList.remove('open');
-    });
-};
+});
