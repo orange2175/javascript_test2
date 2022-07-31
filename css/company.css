@@ -1,6 +1,7 @@
 
 
 
+
 a{
   text-decoration: none;
   color:white;
@@ -339,8 +340,9 @@ a{
 /*  */
 
 .over_item{
-    margin-top:50px;
-
+     margin-top:50px; 
+     
+     
 }
 .overview{
    justify-content:center;
@@ -351,7 +353,7 @@ width:80%;
 }
 
 tr{
-  
+  border-top: 1px solid black;
     font-size:13px;
     border-bottom: solid 1px;
     line-height: 70px;
@@ -482,3 +484,4 @@ line-height: 60px;
     /* margin-right: auto; */
   }}
  
+  
